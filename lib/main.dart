@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
                   ),
                 ),
                 leading: CircleAvatar(
-                  backgroundColor: Colors.green,
+                  backgroundColor: Colors.orangeAccent,
                   child: Text(
                     "${_data['features'][position]['properties']['mag']}",
                     style: TextStyle(
